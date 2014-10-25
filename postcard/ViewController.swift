@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
     
     @IBOutlet weak var messageLebel: UILabel!
 
@@ -35,6 +36,10 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // Code will evaluate when we the press the button
         // Adding a Comment here to testcomits
+        nameLabel.hidden = false
+        nameLabel.text = enterNameTextField.text
+        enterNameTextField.text = ""
+        enterNameTextField.resignFirstResponder()
         messageLebel.hidden = false
         messageLebel.text = enterMassageTextField.text
         enterMassageTextField.text = ""
