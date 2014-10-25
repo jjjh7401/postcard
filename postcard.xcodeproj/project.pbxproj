@@ -13,6 +13,8 @@
 		18C6D9F019F8F35900DAB1D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6D9EF19F8F35900DAB1D1 /* Images.xcassets */; };
 		18C6D9F319F8F35900DAB1D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C6D9F119F8F35900DAB1D1 /* LaunchScreen.xib */; };
 		18C6D9FF19F8F35A00DAB1D1 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6D9FE19F8F35A00DAB1D1 /* postcardTests.swift */; };
+		18C6DA0A19F8F37600DAB1D1 /* apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18C6DA0819F8F37600DAB1D1 /* apple.jpeg */; };
+		18C6DA0B19F8F37600DAB1D1 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18C6DA0919F8F37600DAB1D1 /* images-1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		18C6D9F819F8F35900DAB1D1 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6D9FD19F8F35900DAB1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C6D9FE19F8F35A00DAB1D1 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		18C6DA0819F8F37600DAB1D1 /* apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpeg; sourceTree = "<group>"; };
+		18C6DA0919F8F37600DAB1D1 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		18C6D9E619F8F35900DAB1D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18C6DA0819F8F37600DAB1D1 /* apple.jpeg */,
+				18C6DA0919F8F37600DAB1D1 /* images-1.jpeg */,
 				18C6D9E719F8F35900DAB1D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C6DA0A19F8F37600DAB1D1 /* apple.jpeg in Resources */,
 				18C6D9EE19F8F35900DAB1D1 /* Main.storyboard in Resources */,
 				18C6D9F319F8F35900DAB1D1 /* LaunchScreen.xib in Resources */,
 				18C6D9F019F8F35900DAB1D1 /* Images.xcassets in Resources */,
+				18C6DA0B19F8F37600DAB1D1 /* images-1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
